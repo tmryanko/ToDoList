@@ -8,7 +8,8 @@ export default class AuthForm extends Component {
     this.state = {
       email: '',
       password: '',
-      username: ''  
+      username: '' ,
+      tomer: ''
     };
   }
   handleChange = (e) => {
